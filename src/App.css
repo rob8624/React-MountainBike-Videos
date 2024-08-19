@@ -1,0 +1,80 @@
+
+/*Setup*/
+*,
+::before,
+::after,
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ebfdff;
+  
+}
+/*EndSetup*/
+
+main {
+  margin:0 auto;
+  max-width: 100px;
+}
+
+/*Wrappers*/
+.centering--wrapper{
+  display: flex;
+  justify-content:center;
+  
+}
+
+.info--wrapper {
+  display: flex;
+  gap:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+/*Messages*/
+.top--message {
+  text-align: center;
+  padding: 20px;
+}
+
+/*Buttons*/
+.results--btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  background-color: white;
+}
+
+li {
+  list-style-type: none 
+}
+
+/*video list*/
+.video--title {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  color: #B9A5F8;
+}
+
+.video--index {
+  font-size: 26px;
+  color: red;
+  padding-right: 5px;
+}
+
+/*video info*/
+.info--title {
+  font-family: sans-serif;
+  font-size: 22px;
+  color: black;
+}
+
+.info--description {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top:10px;
+}
